@@ -1,0 +1,41 @@
+body{
+    background-color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    background-color: green;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    border-radius: 5px;
+}
+td{
+    padding: 7px;
+}
+input{
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+}
+input:focus,textarea:focus{
+    outline: none;
+    border: 1 px forestgreen;
+}
+textarea{
+    border-radius: 10px;
+    border: none;
+}
+
+.button{
+    background-color: forestgreen;
+    color: white;
+    font-size: 18px;
+    padding: 0px 25px;
+    border: none;
+    margin-bottom: 30px;
+
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px red;
+}
